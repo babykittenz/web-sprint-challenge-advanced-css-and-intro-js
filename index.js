@@ -312,9 +312,14 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
+function addArtist(array) {
   /*Your Code Here*/
+  const newArray = [{id:20, name: 'Michael Kidby', years: '1992-Friday', genre: 'Web Design', nationality: 'American', bio:  'derp derp derp derp derp derp'}]
+  array.push(newArray);
+  return array;
 }
+
+console.log(addArtist(artists));
 
 
 
