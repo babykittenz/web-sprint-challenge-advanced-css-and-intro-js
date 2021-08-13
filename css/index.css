@@ -135,7 +135,15 @@ button:hover{
     width:100%;
 }
 
-@media (max-width: 800px){
+/* MEDIA QUERIES  (desktop first) */
 
-    
+@media (max-width: 800px){
+.title-container div{
+    width:100%;
+}
+
+nav{
+    width: 50%;
+}
+
 }
