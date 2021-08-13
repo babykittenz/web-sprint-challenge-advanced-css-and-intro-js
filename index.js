@@ -314,8 +314,8 @@ Example: addArtist(artists) should return the artists array with the above objec
 
 function addArtist(array) {
   /*Your Code Here*/
-  const newArray = [{id:20, name: 'Michael Kidby', years: '1992-Friday', genre: 'Web Design', nationality: 'American', bio:  'derp derp derp derp derp derp'}]
-  array.push(newArray);
+  
+  array.push({id:20, name: 'Michael Kidby', years: '1992-Friday', genre: 'Web Design', nationality: 'American', bio:  'derp derp derp derp derp derp'}); 
   return array;
 }
 
