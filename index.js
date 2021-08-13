@@ -257,9 +257,14 @@ function get20s(array) {
   let name = array[i]['name'];
   let str = array[i]['years'];
   let strSplit = str.split('-');
-  newArray.push(strSplit, name);
+  newArray.push(strSplit);
+  let born = parseInt(newArray[i][0]);
+  let died = parseInt(newArray[i][1]);
+  if(born >= 1900 && died <= 2000){
+    report.push(name);
+  }
+  
  
-  report.push(name);
   
   
   }
