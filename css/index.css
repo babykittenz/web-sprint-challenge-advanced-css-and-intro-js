@@ -146,4 +146,16 @@ nav{
     width: 50%;
 }
 
+.artists-container{
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+.artist{
+    width: 100%;
+    
+}
+.title-container hr{
+    width: 100%;
+}
+
 }
