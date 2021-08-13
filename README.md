@@ -28,7 +28,7 @@ Accessibility is the practice of writing your code so that it allows screen read
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
 
-You can use alt text for images, headings symantically, and give links descriptive names.
+You can use alt text for images, headings and other tags symantically, and give links descriptive names.
 
 3. How would you explain the concept of a variable to someone new to programming?
 
