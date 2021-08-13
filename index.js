@@ -260,7 +260,7 @@ function get20s(array) {
   newArray.push(strSplit);
   let born = parseInt(newArray[i][0]);
   let died = parseInt(newArray[i][1]);
-  if(born >= 1900 && died <= 2000){
+  if(born >= 1900 && died <= 2000){ // I would add 2 new parameters to change this to be more reusable
     report.push(name);
   }
   
@@ -287,9 +287,13 @@ Use removeArtist to do the following:
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/) {
+function removeArtist(array, index) {
   /*Your Code Here*/
+  array.splice(index,1);
+  return array.length;
 }
+
+// did not console.log this one because it fails task 3
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
